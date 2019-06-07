@@ -78,4 +78,8 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: s3-cloudfront-xdsoar
+  bucket: blog.goatman.me
+  cf_distribution: E20HHK1HF2JSMD
+  region: ap-northeast-1
+  headers: {CacheControl: 'max-age=604800, public'}
