@@ -82,4 +82,10 @@ deploy:
   bucket: blog.goatman.me
   cf_distribution: E20HHK1HF2JSMD
   region: ap-northeast-1
-  headers: {CacheControl: 'max-age=604800, public'}
+  headers: {CacheControl: 'max-age=31557600, public'}
+
+lazyload:
+  enable: true 
+  onlypost: true
+
+all_minifier: true

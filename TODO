@@ -1,0 +1,6 @@
+* setup the pipe line
+* clean the repo exclude node module which can download through npm install
+* add rss supoort for blog
+* add aboutme page
+* add catalog(like game、blog、code)
+* tunning lazy load image
