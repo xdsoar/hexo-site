@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://goatman.me
+url: http://blog.goatman.me
 root: /
 permalink: :title/
 permalink_defaults:
@@ -85,7 +85,7 @@ deploy:
   headers: {CacheControl: 'max-age=31557600, public'}
 
 lazyload:
-  enable: true 
+  enable: false
   onlypost: true
 
-all_minifier: true
+all_minifier: false
