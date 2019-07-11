@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://goatman.me
+url: http://blog.goatman.me
 root: /
 permalink: :title/
 permalink_defaults:
@@ -78,4 +78,14 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: s3-cloudfront-xdsoar
+  bucket: blog.goatman.me
+  cf_distribution: E20HHK1HF2JSMD
+  region: ap-northeast-1
+  headers: {CacheControl: 'max-age=31557600, public'}
+
+lazyload:
+  enable: false
+  onlypost: true
+
+all_minifier: false
