@@ -41,6 +41,7 @@ keywords: "Hexo, NexT"
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
 rss: 
+feed: 
   type: atom
   path: atom.xml
   limit: 20
