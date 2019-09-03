@@ -45,9 +45,7 @@ rss:
   path: atom.xml
   limit: 20
   hub:
-  content:
-  content_limit:
-  content_limit_delim: ' '
+  content: true
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
