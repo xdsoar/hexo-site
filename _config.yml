@@ -85,7 +85,7 @@ deploy:
   headers: {CacheControl: 'max-age=31557600, public'}
 
 lazyload:
-  enable: false
+  enable: true
   onlypost: true
 
 all_minifier: false
